@@ -3,7 +3,7 @@ import { GrRotateLeft, GrRotateRight } from 'react-icons/gr';
 import { CgMergeVertical, CgMergeHorizontal } from 'react-icons/cg';
 import { IoMdUndo, IoMdRedo, IoIosImage } from 'react-icons/io';
 
-const App = () => {
+const Home = () => {
   const filterElement = [
     {
       name: 'brightness',
@@ -204,4 +204,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
